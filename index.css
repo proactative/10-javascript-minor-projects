@@ -17,3 +17,6 @@
 @import url(./blocks/clock/__title/clock__title.css);
 @import url(./blocks/clock/__wrapper/clock__wrapper.css);
 @import url(./blocks/clock/__element/clock__element.css);
+
+@import url(./blocks/toggle/toggle.css);
+@import url(./blocks/toggle/__title/toggle__title.css);

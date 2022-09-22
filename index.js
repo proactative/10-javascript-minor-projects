@@ -45,3 +45,20 @@ setCurrentTime();
 //console.log(hoursItem);
 
 /* h = h < 10 ? "0" + h : h;*/
+
+/*toggle*/
+const inputElement = document.querySelector('.input');
+inputElement.checked = false;
+const cardElement = document.querySelector('.toggle');
+const titleElement = document.querySelector('.toggle__title');
+
+function updateBody() {
+    if(inputElement.checked) {
+        cardElement.style.backgroundColor = '#222';
+        titleElement.style.color = '#fff';
+    } else {
+        cardElement.style.backgroundColor = 'greenyellow';
+        titleElement.style.color = '#000';
+    }
+}
+inputElement.addEventListener('input', updateBody);
