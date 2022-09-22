@@ -1,0 +1,9 @@
+.clock__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222;
+  width: 200px;
+  height: 100px;
+  border-radius: 7px;
+}

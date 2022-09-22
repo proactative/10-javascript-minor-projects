@@ -1,0 +1,5 @@
+.clock__digits {
+  font-size: 32px;
+  letter-spacing: 2px;
+  display: block;
+}
