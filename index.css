@@ -26,3 +26,11 @@
 @import url(./blocks/counter/__value-box/counter__value-box.css);
 @import url(./blocks/counter/__value/counter__value.css);
 @import url(./blocks/counter/__buttons/counter__buttons.css);
+@import url(./blocks/counter/__button/counter__button.css);
+
+
+@import url(./blocks/password/password.css);
+@import url(./blocks/password/__title/password__title.css);
+@import url(./blocks/password/__container/password__container.css);
+@import url(./blocks/password/__input/password__input.css);
+@import url(./blocks/password/__button/password__button.css);
