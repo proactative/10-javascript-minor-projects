@@ -2,7 +2,7 @@ const hoursItem = document.querySelector('#clock__hours');
 const minutesItem = document.querySelector("#clock__minutes");
 const secondsItem = document.querySelector("#clock__seconds");
 
-//https://github.com/kaizhelam/Digital-Clock/blob/main/script.js
+
 function setCurrentTime() {
   //получаем данные с компьютера
   let currentHours = new Date().getHours();

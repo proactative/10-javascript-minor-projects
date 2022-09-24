@@ -1,0 +1,71 @@
+.progress__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.progress {
+  padding: 10px;
+}
+.progress__circle {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  margin-top: 30px;
+}
+
+.progress__outer-circle {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15);
+  box-shadow: -6px -6px 10px -1px rgba(255, 255, 255, .7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress__inner-circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  /*box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, .2),
+              inset -4px -4px 6px -1px rgba(255, 255, 255, .7),
+              -0.5px -0.5px 0 rgba(255, 255, 255, 1),
+               0.5px 0.5px 0 rgba(255, 255, 255, .15),
+               0px 12px 10px -10px rgba(255, 255, 255, .05),*/
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15);
+  box-shadow: -6px -6px 10px -1px rgba(255, 255, 255, .7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress__figure {
+  color: white;
+  font-size: 32px;
+}
+
+circle {
+  fill: none;
+  stroke-width: 20px;
+  stroke: url(#GradientColor);
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;    /*472-472.073 (73% equels html value)*/
+  animation: filling 2s ease-in forwards;
+  position: relative;
+}
+
+@keyframes filling {
+  100% {
+    stroke-dashoffset: 127; /*472-472.073 (73% equels html value)*/
+  }
+}
+
+svg {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
