@@ -1,9 +1,15 @@
 .header {
- min-height: 150px;
- padding-left: 50px;
- display: flex;
- justify-content: flex-start;
- align-items: center;
- color: #fff;
- border-bottom: 1px solid greenyellow;
+  min-height: 150px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  border-bottom: 1px solid greenyellow;
+}
+
+@media screen and (max-width: 600px) {
+ .header {
+  min-height: 75px;
+ }
 }
