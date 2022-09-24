@@ -9,6 +9,10 @@
 .progress {
   padding: 10px;
 }
+
+.progress__title {
+  text-align: center;
+}
 .progress__circle {
   height: 160px;
   width: 160px;
