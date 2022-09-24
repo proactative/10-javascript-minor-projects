@@ -18,7 +18,8 @@
 }
 
 .input:checked+.label {
-  background-color: white;
+  background-color: lightgray;
+  border: 1px solid black;
 }
 
 .input:checked+.label .circle {
