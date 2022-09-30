@@ -12,6 +12,7 @@
 @import url(./blocks/cards/__container/cards__container.css);
 
 @import url(./blocks/card/card.css);
+@import url(./blocks/card/__title/card__title.css);
 
 @import url(./blocks/clock/clock.css);
 @import url(./blocks/clock/__title/clock__title.css);
@@ -36,6 +37,9 @@
 @import url(./blocks/password/__button/password__button.css);
 
 @import url(./blocks/progress/progress.css);
+
+@import url(./blocks/temperature/temperature.css);
+@import url(./blocks/temperature/__input/temperature__input.css);
 
 
 @import url(./blocks/footer/footer.css);

@@ -7,7 +7,7 @@
 }
 
 .progress {
-  padding: 10px;
+
 }
 
 .progress__title {
@@ -64,7 +64,7 @@ circle {
 
 @keyframes filling {
   100% {
-    stroke-dashoffset: 127; /*472-472.073 (73% equels html value)*/
+    stroke-dashoffset: 127; /*472-472.073 (73% equals html value)*/
   }
 }
 

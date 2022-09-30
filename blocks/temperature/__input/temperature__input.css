@@ -1,0 +1,7 @@
+.temperature__input {
+ height: 30px;
+ width: 150px;
+ border-radius: 7px;
+ outline: none;
+ font-size: 18px;
+}
