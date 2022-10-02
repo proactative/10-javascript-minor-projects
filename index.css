@@ -24,6 +24,7 @@
 
 @import url(./blocks/counter/counter.css);
 @import url(./blocks/counter/__title/counter__title.css);
+@import url(./blocks/counter/__wrapper/counter__wrapper.css);
 @import url(./blocks/counter/__value-box/counter__value-box.css);
 @import url(./blocks/counter/__value/counter__value.css);
 @import url(./blocks/counter/__buttons/counter__buttons.css);
@@ -39,7 +40,9 @@
 @import url(./blocks/progress/progress.css);
 
 @import url(./blocks/temperature/temperature.css);
+@import url(./blocks/temperature/__container/temperature__container.css);
 @import url(./blocks/temperature/__input/temperature__input.css);
+@import url(./blocks/temperature/__subtitle/temperature__subtitle.css);
 
 
 @import url(./blocks/footer/footer.css);

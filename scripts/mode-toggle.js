@@ -5,10 +5,10 @@ const titleElement = document.querySelector('.toggle__title');
 
 function updateBody() {
   if (inputElement.checked) {
-    cardElement.style.backgroundColor = '#dcdde1';
-    titleElement.style.color = '#000';
+    cardElement.style.background = 'linear-gradient(90deg, greenyellow ,#e91e63)';
+    titleElement.style.color = '#222';
   } else {
-    cardElement.style.backgroundColor = '#222';
+    cardElement.style.background = '#222';
     titleElement.style.color = 'greenyellow';
   }
 }

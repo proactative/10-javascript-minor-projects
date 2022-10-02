@@ -1,12 +1,13 @@
-.clock__wrapper {
+.temperature__container {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
+  padding-top: 10px;
   background: linear-gradient(90deg, greenyellow ,#e91e63);
   width: 250px;
-  height: 100px;
+  height: 150px;
   border-radius: 7px;
-  margin-top: 50px;
   box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, .15);
   box-shadow: -6px -6px 10px -1px rgba(255, 255, 255, .7);
+  margin-top: 10px;
 }
